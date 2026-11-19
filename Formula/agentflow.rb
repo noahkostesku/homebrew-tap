@@ -1,25 +1,25 @@
 class Agentflow < Formula
   desc "One live view of every coding agent you run: a terminal visualizer for Claude Code, Codex and other agent harnesses"
   homepage "https://github.com/noahkostesku/agentflow"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/noahkostesku/agentflow/releases/download/v0.2.0/agentflow-aarch64-apple-darwin.tar.xz"
-      sha256 "c0f0d09bfb616145b36449f2d9c7102fa70dacb9f58e4faf5a3a206ecb69a922"
+      url "https://github.com/noahkostesku/agentflow/releases/download/v0.3.0/agentflow-aarch64-apple-darwin.tar.xz"
+      sha256 "98d81ddb76dd6f5ad0226c502a43681b26359de30f1640fa734686a1bfe44b4c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/noahkostesku/agentflow/releases/download/v0.2.0/agentflow-x86_64-apple-darwin.tar.xz"
-      sha256 "48fcf64a10bc434830fb033599d8e1f1546392f68a5a6a6180e3db9c628edce5"
+      url "https://github.com/noahkostesku/agentflow/releases/download/v0.3.0/agentflow-x86_64-apple-darwin.tar.xz"
+      sha256 "7ac68cb15939141c7f594b9337a7a5f7d2078f15b70477a6a3ad4ab1f18eefec"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/noahkostesku/agentflow/releases/download/v0.2.0/agentflow-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "6a030312fd8b8324e64fd5aaf49bd6752e0efdd503b22298093002461e6c83f3"
+      url "https://github.com/noahkostesku/agentflow/releases/download/v0.3.0/agentflow-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "a3b9b7d357a301c2227bd69cd0b7bae63b3a004c16b947c4b62624da84f7b57e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/noahkostesku/agentflow/releases/download/v0.2.0/agentflow-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "bd970f7e1a6b69e611bd7d3fde3cc6ad73ec0ce8f8e193d7ce85be4f21e1304e"
+      url "https://github.com/noahkostesku/agentflow/releases/download/v0.3.0/agentflow-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "dcfb53a7cdccccd9df59df0a6fc23dc56b4765d6db25e07022967fa50c2bde04"
     end
   end
   license "MIT"
